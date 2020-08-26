@@ -17,6 +17,19 @@
       <% }); %>
     </ul> 
 
+ <input type="text" id="myText" value="Some text...">
+ 
+ <button onclick="myFunction()">Add a skill</button>
+
+ <script>
+    function myFunction() {//should probably have this in a controller? :/
+      var x = document.getElementById("myText").value;
+      console.log(x);      
+      //add var x to skills object in skills.js
+    }
+</script>
+
+
  </body>
 
  </html>

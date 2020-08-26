@@ -1,4 +1,4 @@
-const skills = [
+let skills = [
     {skill: 'OOP'},
     {skill: 'JS'},
     {skill: 'Java'},

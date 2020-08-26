@@ -30,13 +30,6 @@ app.get('/skills', function(req, res) {
     });
   });
 
-
-
-
-
-
-
-
     
 // Tell the app to listen on port 3000
 app.listen(3000, function() {
